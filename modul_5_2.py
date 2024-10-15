@@ -1,0 +1,20 @@
+class House:
+    def __init__(self,name,namber_of_floors):
+        self.name = name
+        self.namber_of_floors = namber_of_floors
+    def __len__(self):
+        return self.namber_of_floors
+    def __str__(self):
+        title = str(f'Название :{self.name} , Количество этажей: {self.namber_of_floors}')
+        return title
+h1 = House('ЖК Эльбрус', 10)
+h2 = House('ЖК Акация', 20)
+
+# __str__
+print(h1)
+print(h2)
+
+# __len__
+print(len(h1))
+print(len(h2))
+
