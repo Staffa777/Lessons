@@ -47,9 +47,9 @@ class Tournament:
 
         return finishers
 
-# first = Runner('Вося', 10)
-# second = Runner('Илья', 5)
-# # third = Runner('Арсен', 10)
-#
-# t = Tournament(101, first, second)
-# print(t.start())
+first = Runner('Вося', 10)
+second = Runner('Илья', 5)
+third = Runner('Арсен', 10)
+
+t = Tournament(101, first, second)
+print(t.start())
